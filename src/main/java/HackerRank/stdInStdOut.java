@@ -28,3 +28,19 @@ public class stdInStdOut {
         System.out.println(c);
     }
 }
+/*
+To Note!!
+The main reason we use primitives like int and long instead of Integer and Long is memory efficiency and performance. (even though they both work)
+
+Use primitives (int, long, double, etc.) when:
+You don't need null values.
+You are performing fast calculations or loops.
+You want to save memory in large datasets.
+
+Use wrapper classes (Integer, Long, etc.) when:
+You need to store values in Collections (like List<Integer> or Map<Long, String>).
+You need null values (primitives can't be null, but Long can).
+You need to use methods like Integer.parseInt(), Long.toString(), etc.
+
+Use primitives by default, unless you're working with Collections or need an Object.
+ */
