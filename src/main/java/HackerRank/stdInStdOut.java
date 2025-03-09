@@ -29,7 +29,7 @@ public class stdInStdOut {
     }
 }
 /*
-To Note!!
+To Note!
 The main reason we use primitives like int and long instead of Integer and Long is memory efficiency and performance. (even though they both work)
 
 Use primitives (int, long, double, etc.) when:
