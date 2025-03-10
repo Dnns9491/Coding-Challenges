@@ -42,5 +42,5 @@ public class ifElseProblem {
 The reason we don't declare the scanner method within the main method, is because
 1. If another method in the class has to use Scanner, it can be reused.
 2. Avoids creating multiple Scanner objects unnecessarily.
-3. If declared inside the main method, it only exists in the main
+3. If declared inside the main method, it only exists withing the main() and can't be used elsewhere.
  */
