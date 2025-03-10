@@ -31,3 +31,24 @@ public class stdInStdOutTest {
         assertEquals(expectedOuput, outputStream.toString());
     }
 }
+
+/*
+If you have a class called MyClass, the test class should be names MyClassTest, similar to how we did above.
+
+When you use @Test, it tells JUnit that the method below is a test case.
+When you run the test, JUnit automatically executes all methods annotated with @Test
+
+@BeforeClass → Runs once before all tests (used for expensive setup, like database connections) and you don’t want to repeat it before every test.
+@Before → Runs before each test method (ensures each test starts with a clean slate.).
+
+Steps for a `JUnit test:
+1. Arrange -> prepare inputs
+2. Act -> execute the method
+3. Assert -> checks if the result matches expectations.
+
+@After → Runs after each test (clean up objects) avoiding memory leaks.
+@AfterClass → Runs once after all tests (close database, release resources) and ensures clean state for each test.
+
+If you want to run the same test with multiple inputs, you can use parameterized tests.
+Use @ParameterizedTest for this.
+ */
