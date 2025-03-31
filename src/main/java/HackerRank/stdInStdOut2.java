@@ -26,7 +26,7 @@ public class stdInStdOut2 {
         int i = scan.nextInt();
         double d = scan.nextDouble();
         scan.nextLine();
-        String s = scan.nextLine(); // Consume the newline ch
+        String s = scan.nextLine();
         scan.close();
 
 
